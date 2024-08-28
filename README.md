@@ -15,3 +15,12 @@ ln -sf /path/to/the/omg-envs/omg_grower_env.ini .
 ln -sf /path/to/the/omg-envs/omg_d1mini_rf_env.ini .
 ln -sf /path/to/the/omg-envs/secret_env.ini .
 ```
+
+Install [PlatformIO](https://platformio.org) for Visual Studio Code.
+
+Open /path/to/the/OpenMQTTGateway inside VSCode
+
+Switch to the appropriate PlatformIO env, "OTA" envs are recommended for simplicty and remote firmware uploads, however for debugging purposes you might want to connect your device via cable and use "non-OTA" env, like `d1mini-grower-prod` etc.
+
+Now you're ready to build/upload firmware or connect to your device via serial monitor using PlatformIO inside VSCode
+
